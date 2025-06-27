@@ -87,3 +87,8 @@ itemWriter.write(processedItems);
 
 example link : https://medium.com/@elouadinouhaila566/understanding-spring-batch-a-comprehensive-guide-393904ac401c  
 Ref spring doc Link : https://docs.spring.io/spring-batch/reference/index.html  
+
+**NOTE** : Ensure your class is not annotated with **@EnableBatchProcessing** - it is no longer required in Spring Boot 3.
+And adding it will cause the batch job NOT to run. 
+See https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Migration-Guide#enablebatchprocessing-is-now-discouraged
+

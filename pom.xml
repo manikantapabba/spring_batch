@@ -54,6 +54,16 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-batch</artifactId>
+			<!--version is in spring-boot-starter-parent -> spring-boot-dependencies-->
+		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.batch</groupId>-->
+<!--			<artifactId>spring-batch-core</artifactId>-->
+<!--			<version>YOUR_SPRING_BATCH_VERSION</version>-->
+<!--		</dependency>  It is used for traditional Spring application (Non springboot), spring-boot-starter-batch provides auto-configuration.-->
 	</dependencies>
 
 	<build>
